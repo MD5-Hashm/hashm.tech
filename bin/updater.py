@@ -1,3 +1,6 @@
+import os
+os.chdir("/projects/hashmweb/site/")
+os.system("gitfolio update")
 with open("/projects/hashmweb/site/dist/index.html", "r") as r:
     newcontents = r.readlines()
 with open("/projects/hashmweb/old/oldindex.html", "r") as r:
