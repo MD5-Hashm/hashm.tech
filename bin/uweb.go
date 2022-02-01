@@ -2,6 +2,8 @@ package main
 
 import (
 	"net/http"
+
+	"github.com/kahoon/gopid"
 )
 
 func serve() {
@@ -10,5 +12,6 @@ func serve() {
 }
 
 func main() {
+	gopid.Run("uweb")
 	serve()
 }
