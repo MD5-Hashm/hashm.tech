@@ -1,9 +1,9 @@
 import os
 os.chdir("/projects/hashmweb/site/")
 os.system("gitfolio update")
-with open("index.html", "r") as r:
-    newcontents = r.readlines()
 with open("/projects/hashmweb/site/dist/index.html", "r") as r:
+    newcontents = r.readlines()
+with open("/projects/hashmweb/old/oldindex.html", "r") as r:
     oldcontents = r.readlines()
 for i in range(0,38):
     newcontents[i] = oldcontents[i]
