@@ -1,1 +1,1 @@
-0 * * * * /projects/hashmweb/bin/update-script.sh
+0 * * * * /projects/hashmweb/bin/update-script.sh >& /dev/null
