@@ -1,4 +1,4 @@
-### Files for my website (https://www.hashm.tech) 
+### Files for my [website](https://www.hashm.tech) 
 
 The website was created with [gitfolio](https://github.com/imfunniee/gitfolio)
 I then wrote a program for the webserver and an updater script to update the repos and changes some of the html.
